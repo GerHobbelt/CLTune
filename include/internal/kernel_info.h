@@ -82,7 +82,7 @@ class KernelInfo {
   };
 
   // Helper structure holding a constraint on parameters. This constraint consists of a constraint
-  // function object and a vector of paramater names represented as strings.
+  // function object and a vector of parameter names represented as strings.
   struct Constraint {
     ConstraintFunction valid_if;
     std::vector<std::string> parameters;
